@@ -1,0 +1,11 @@
+Source Code and resources
+Section 7, Lecture 215
+downloadable resources and files
+
+Editor http://brackets.io/
+
+DevTools https://developers.google.com/web/tools/chrome-devtools/
+
+jQuery site http://jquery.com/
+
+MDN https://developer.mozilla.org/en-US/docs/Glossary/jQuery

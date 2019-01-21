@@ -1,0 +1,27 @@
+JavaScript Event listeners
+Section 4, Lecture 154
+<html><head>
+<title>JavaScript</title></head>
+<body>
+<h2>JavaScript</h2>
+<input type="text" id="myInput" value="test">
+<div id="testButton">Click</div>
+<script>
+const myBtn = document.querySelector('#testButton');
+const myEle = document.querySelector('h2')
+ 
+myBtn.addEventListener('click',message);
+ 
+ 
+function message(){
+    let temp = document.getElementById('myInput');
+    output(temp.value);
+}
+ 
+function output(mess){
+    myEle.innerHTML = mess;
+}
+ 
+</script>
+</body>
+</html>

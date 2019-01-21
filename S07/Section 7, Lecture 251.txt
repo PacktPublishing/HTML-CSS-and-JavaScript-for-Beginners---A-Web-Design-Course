@@ -1,0 +1,29 @@
+jQuery Project Source code
+Section 7, Lecture 251
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <title>jQuery Course</title>
+</head>
+ 
+<body>
+    <input type="number" value="5" name="num" max="50" min="1">
+    <input type="button" class="btn" value="Get Names">
+    <div id="output"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            
+        })
+ 
+        function output(data) {
+ 
+            var html = "";
+ 
+            $("#output").html(html);
+        }
+    </script>
+</body>
+ 
+</html>

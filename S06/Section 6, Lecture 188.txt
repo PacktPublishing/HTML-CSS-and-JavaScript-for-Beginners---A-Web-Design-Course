@@ -1,0 +1,35 @@
+JSON JavaScript object example
+Section 6, Lecture 188
+<html>
+ 
+<head>
+    <title>JSON</title>
+</head>
+ 
+<body>
+    <script>
+        var myObj = {
+            "firstName": "John"
+            , "lastName": "Smith"
+            , "age": 25
+            , "address": {
+                "street": "21 Ave"
+                , "city": "New York"
+                , "state": "NY"
+            }
+            , "phoneNumber": [
+                {
+                    "type": "home"
+                    , "number": "23342324"
+                }
+      
+                , {
+                    "type": "fax"
+                    , "number": "2332342342"
+                }
+    ]
+        }
+    </script>
+</body>
+ 
+</html>

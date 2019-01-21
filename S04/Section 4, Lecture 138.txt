@@ -1,0 +1,22 @@
+JavaScript Exercise #3 coding example
+Section 4, Lecture 138
+<html><head>
+<title>JavaScript</title></head>
+<body>
+<h2>JavaScript</h2>
+<button type="button" onclick="message('hello world')">Click</button>
+<script>
+ 
+var car = {
+    color : 'red',
+    year:2010,
+    make:'Corvette',
+    brand:'Chevrolet',
+    price:50000
+};
+ 
+ 
+document.querySelector('h2').innerHTML = car.color + ' ' + car.make;           
+</script>
+</body>
+</html>

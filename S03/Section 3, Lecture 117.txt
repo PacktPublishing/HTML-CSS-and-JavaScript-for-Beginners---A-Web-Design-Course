@@ -1,0 +1,182 @@
+Source Code
+Section 3, Lecture 117
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <meta charset="utf-8" />
+    <title>Build a Site Website</title>
+    <link rel="stylesheet" type="text/css" href="build1.css"> </head>
+ 
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="info"> <img src="https://via.placeholder.com/50x50" alt="logo" id="logo" />
+                <h1>Example 1</h1>
+                <h2>My Website</h2> </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="banner">
+            <div id="bannerText"> My Banner </div>
+        </div>
+        <section>
+            <article>
+                <h1>Page Title</h1>
+                <p>Hello World</p>
+                <div>
+                    <h2>My Work</h2>
+                    <p><img src="https://via.placeholder.com/250x150/ffffff/000000" alt="Picture"><img src="https://via.placeholder.com/250x150/000fff/000000" alt="Picture"><img src="https://via.placeholder.com/250x150/ff0000/000000" alt="Picture"><img src="https://via.placeholder.com/250x150/00ff00/000000" alt="Picture"></p>
+                </div>
+            </article>
+            <aside>
+                <h2>More information</h2>
+                <p><img src="https://via.placeholder.com/150x80/ffff00/000000?text=Hello World" alt="Hello World" /></p>
+                <p>blah blah blah</p>
+               
+            </aside>
+        </section>
+        <footer>
+            <div >
+                <h3>About</h3>
+                <p>Address</p>
+            </div>
+            <div>
+                <h3>My Details</h3>
+                <p>
+                    (c)copyright 
+                </p>
+            </div>
+            <div>
+                <h3>My Website</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+ 
+</html>
+ 
+ 
+ 
+body {
+    background-color: aliceblue;
+    font-family: fantasy;
+}
+ 
+#wrapper {
+    width: 80%;
+    margin: 10%;
+}
+ 
+#info img,
+#info h1,
+#info h2 {
+    display: inline-block;
+}
+ 
+#info img {
+    max-width: 50px;
+    max-height: 50px;
+}
+ 
+#info h1 {
+    text-transform: uppercase;
+    font-size: 2em;
+}
+ 
+#info h2 {
+    color: #333;
+    margin-left: 15px;
+    font-size: 0.8em;
+}
+ 
+#banner {
+    background: url('CSS.png') no-repeat;
+    height: 200px;
+    background-size: cover;
+    position: relative;
+}
+ 
+#bannerText {
+    position: absolute;
+    bottom: 10%;
+    background-color: red;
+    right: 10%;
+    padding: 15px;
+    color: white;
+    border-radius: 15px 5px;
+    font-size: 1.2em;
+}
+ 
+nav {
+    text-transform: uppercase;
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    background-color: black;
+}
+ 
+nav ul {
+    list-style-type: none;
+}
+ 
+nav li {
+    display: inline-block;
+}
+ 
+nav a {
+    text-decoration: none;
+    padding: 5px;
+    font-size: 1.5em;
+    border-bottom: 1px dotted red;
+    color: white;
+}
+ 
+nav a:hover {
+    color: aqua;
+    border-bottom: 3px solid blue;
+}
+ 
+section article,
+section aside {}
+ 
+section article {
+    float: left;
+    width: 65%;
+    margin: 0;
+}
+ 
+section article img{
+    max-width: 50%;
+}
+section aside {
+    float: right;
+    width: 34%;
+    margin: 0;
+}
+ 
+footer {
+    clear: both;
+    background: #ddd;
+}
+ 
+footer div{
+    display: inline-block;
+    width:33%;
+    vertical-align: top;
+ 
+}

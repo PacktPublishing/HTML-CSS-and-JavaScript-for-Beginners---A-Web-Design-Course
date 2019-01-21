@@ -1,0 +1,17 @@
+Section source code and resources
+Section 4, Lecture 119
+Download source code and resources
+
+<html>
+<head>
+    <title>JavaScript</title>
+    </head>
+    <body>
+        <div id="output">JavaScript</div>
+        <button type="button" onclick="alert('hello 1')">Click</button>
+        <script src="script.js"></script>
+        <script>
+ 
+        </script>
+    </body>
+</html>

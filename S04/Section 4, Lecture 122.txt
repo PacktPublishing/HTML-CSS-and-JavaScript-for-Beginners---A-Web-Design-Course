@@ -1,0 +1,17 @@
+Source code console example
+Section 4, Lecture 122
+<html>
+<head>
+    <title>JavaScript</title>
+    </head>
+    <body>
+        <h2>JavaScript</h2>
+        <button type="button" >Click</button>
+        <script>
+console.dir(document);
+console.log('hello');
+document.querySelector('h2').innerHTML = "hello world";
+ 
+        </script>
+    </body>
+</html>

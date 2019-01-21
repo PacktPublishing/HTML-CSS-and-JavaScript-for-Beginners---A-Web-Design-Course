@@ -1,0 +1,66 @@
+JavaScript Conditions and switch Example code
+Section 4, Lecture 145
+<html><head>
+<title>JavaScript</title></head>
+<body>
+<h2>JavaScript</h2>
+<button type="button" onclick="check(5)">Click</button>
+<script>
+var tempVal = 8;
+function check(num){
+    console.log(num);
+    if(num > tempVal){
+        message(num+ ' was more than '+tempVal);
+    }else if(num == tempVal){
+        message(num + ' equal to '+ num);
+    }else{
+        message(num + ' was less than '+tempVal);
+    }
+}
+ 
+function message(mes){
+    document.querySelector('h2').innerHTML = mes;
+ 
+}
+ 
+</script>
+</body>
+</html>
+
+
+<html><head>
+<title>JavaScript</title></head>
+<body>
+<h2>JavaScript</h2>
+<button type="button" onclick="check('hello')">Click</button>
+<script>
+ 
+function check(val){
+    console.log(val);
+    switch (val){
+        case 'one':
+        message('was one');
+        break;
+        case 'hello':
+        message('Say Hello');
+        break;
+        case 'two':
+        case '2':
+        case 2:
+        message('output TWO');
+        console.log('was a value of 2');
+        break;
+        default:
+        message('nothing was matched');
+    }
+}
+ 
+function message(mes){
+    document.querySelector('h2').innerHTML = mes;
+ 
+}
+ 
+     
+</script>
+</body>
+</html>

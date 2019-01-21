@@ -1,0 +1,26 @@
+CSS for tables
+Section 3, Lecture 110
+table {
+    width: 300px;
+}
+ 
+th,
+td {
+    text-align: center;
+    padding: 5px;
+}
+ 
+tr:nth-child(odd) {
+    background-color: #bbb;
+    color: #fff;
+}
+ 
+tr:nth-child(even) {
+    background-color: #000;
+    color: #ddd;
+}
+ 
+th {
+    background-color: red;
+    color: white;
+}

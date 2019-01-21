@@ -1,0 +1,48 @@
+CSS display property example CSS code
+Section 3, Lecture 78
+https://developer.mozilla.org/en-US/docs/Web/CSS/display 
+
+
+
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>CSS example</title>
+    <style>
+        span{
+            display: block;
+        }
+        div{
+            display: inline;
+        }
+        li{
+            display: inline-block;
+            width:100px;
+            height:100px;
+        }
+        nav{
+          /*  display: none;
+            visibility: hidden;*/
+        }
+    </style>
+</head>
+ 
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div>
+    <div>Hello World</div>
+    <div>Hello World</div>
+    <span>Hello World </span>
+    <span>Hello World </span>
+    <span>Hello World </span></div>
+</body>
+ 
+</html>

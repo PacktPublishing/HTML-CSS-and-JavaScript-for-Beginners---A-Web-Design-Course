@@ -1,0 +1,20 @@
+Source Code JavaScript Functions
+Section 4, Lecture 130
+<html><head>
+<title>JavaScript</title></head>
+<body>
+<h2>JavaScript</h2>
+<button type="button" onclick="message('hello world')">Click</button>
+<script>
+var b = 0;
+function message(a){
+b++;
+var output = a + ' ' + b;
+document.querySelector('h2').innerHTML = output;
+console.log(a);
+}
+ 
+ 
+</script>
+</body>
+</html>

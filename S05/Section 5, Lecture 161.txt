@@ -1,0 +1,32 @@
+Source Code DOM
+Section 5, Lecture 161
+<html>
+<head><title>JavaScript DOM Course</title></head>
+<body>
+<h1>Lorem ipsum dolor sit amet consectetuer adipiscinelit</h1>
+<ul>
+  <li id="one">Lorem ipsum dolor sit amet consectetuer.</li>
+  <li class="highlight">Aenean commodo ligula eget dolor.</li>
+  <li>Aenean massa cum sociis natoque penatibus.</li>
+</ul>
+<p  class="highlight">Lorem ipsum dolor sit amet, consectetuer adipiscing 
+elit. Aenean commodo ligula eget dolor. Aenean massa. 
+Cum sociis natoque penatibus et magnis dis parturient 
+montes, nascetur ridiculus mus. Donec quam felis, 
+ultricies nec, pellentesque eu, pretium quis, sem.</p>
+<ul>
+  <li  class="highlight">Lorem ipsum dolor sit amet consectetuer.</li>
+  <li>Aenean commodo ligula eget dolor.</li>
+  <li>Aenean massa cum sociis natoque penatibus.</li>
+</ul>
+<script>
+var el1 = document.querySelector('#one');
+console.dir(el1.innerHTML);
+el1.innerHTML = "Hello World";
+el1.style.color = 'red';
+el1.style.background = 'blue';
+el1.innerText = "TEST";
+ 
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+Source Code Exercise #4
+Section 4, Lecture 156
+<html><head>
+<title>JavaScript</title></head>
+<body>
+ 
+<div id="output"></div>
+<input type="number" name="myNum" min="0" max="100" value="4">
+<input type="button" id="testBtn" value="check">
+ 
+ 
+<script>
+const output = document.getElementById('output');
+const testBtn = document.getElementById('testBtn');
+testBtn.addEventListener('click',checkVal);
+function checkVal(){
+    let val = document.querySelector('input[name="myNum"]').value;
+    output.innerHTML = numChecker(val);
+}
+ 
+function numChecker(num){
+    let message;
+    if(num % 2){
+        message = 'It was ODD!';
+    }else{
+        message = "Even nice";
+    }
+    return message;
+}
+ 
+ 
+ 
+       
+</script>
+</body>
+</html>

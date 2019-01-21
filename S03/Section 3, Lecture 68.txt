@@ -1,0 +1,35 @@
+CSS selection example
+Section 3, Lecture 68
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>Example 3</title>
+    <style>
+        p {
+            color: red;
+        }
+        
+        p:not(:first-child) {
+            font-size: 16px;
+            font-weight: bold;
+        }
+        
+        div {
+            color: blue;
+        }
+    </style>
+</head>
+ 
+<body>
+    <p>Test Text 1</p>
+    <p>Test Text 2</p>
+    <p>Test Text 3</p>
+    <p>Test Text 4</p>
+    <div>
+        <div>Test1</div>
+        <div>Test2</div>
+    </div>
+</body>
+ 
+</html>

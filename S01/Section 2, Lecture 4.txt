@@ -1,0 +1,11 @@
+Section Source Code
+Section 2, Lecture 4
+We've included a downloadable PDF ebook that you can use to follow the course content in the upcoming lessons. 
+
+Its highly recommended that you try the code yourself, we've provided a zip file of all the source code and exercises.  You can copy and paste them into your editor to try the code out.  Please feel free to adjust and try it out, make changes and get a feel for how HTML works.
+
+Editor used within the course is brackets.io (http://brackets.io/) - its open source free download.  Adobe product with great features for coding.
+
+Within the lessons there are several exercises for you to try.   Suggested to pause the video and try the code then watch the solution.
+
+Also if you are already familiar with HTML you may want to skip to lessons that are more along the lines of what you wanted to learn.

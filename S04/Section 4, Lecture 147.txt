@@ -1,0 +1,45 @@
+Source Code Loops
+Section 4, Lecture 147
+<html><head>
+<title>JavaScript</title></head>
+<body>
+<h2>JavaScript</h2>
+<button type="button" onclick="check('hello')">Click</button>
+<script>
+var myArray = [1,3,5,7,8];
+for(var x=0;x<myArray.length;x++){
+    console.log(myArray[x]);
+}
+var myObj = { first:"Laurence",last:"Svekis"};
+for(var x in myObj){
+    console.log(myObj[x] + ' ' + x)
+}
+ 
+var x = 0;
+while(x<10){
+    console.log(x);
+    x++;
+}
+ 
+var i  = 10;
+do {
+    console.log(i);
+    i++;
+}
+while (i < 10);
+ 
+ 
+ 
+ 
+function check(val){
+    console.log(val);
+}
+ 
+function message(mes){
+    document.querySelector('h2').innerHTML = mes;
+}
+ 
+          
+</script>
+</body>
+</html>

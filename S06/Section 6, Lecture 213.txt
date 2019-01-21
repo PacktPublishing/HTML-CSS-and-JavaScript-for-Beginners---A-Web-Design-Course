@@ -1,0 +1,31 @@
+JSON AJAX solution source code and example
+Section 6, Lecture 213
+<html>
+ 
+<head>
+    <title>JSON</title>
+</head>
+ 
+<body>
+    <div id="output"></div>
+    <script>
+ 
+        const output = document.getElementById("output");
+        const url = "https://randomuser.me/api/?results=5";
+        fetch(url).then(function(res){
+            return res.json()
+        }).then(function(data){
+        data.results.forEach(function(person){
+            console.log(person.name.first);
+            console.log(person.picture.thumbnail);
+            output.innerHTML += person.name.first + " ";
+            output.innerHTML += "<img src='"+person.picture.thumbnail+"'><br>";
+        })
+            console.log(data);  
+        })
+ 
+ 
+    </script>
+</body>
+ 
+</html>

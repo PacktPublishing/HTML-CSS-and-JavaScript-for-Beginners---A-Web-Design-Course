@@ -1,0 +1,60 @@
+CSS position example source code
+Section 3, Lecture 102
+https://developer.mozilla.org/en-US/docs/Web/CSS/position 
+
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>Example 12</title>
+    <style>
+        div {
+            border: 1px solid blue;
+            width: 300px;
+            height: 300px;
+        }
+        
+        .box1 {
+            position: absolute;
+            background: red;
+            left: 50px;
+            top: 50px;
+        }
+        
+        .box2 {
+            position: fixed;
+            background: blue;
+            left: 100px;
+            top: 100px;
+        }
+        
+        .box3 {
+            position: relative;
+            background: green;
+            left: 150px;
+            top: 150px;
+        }
+        
+        .box4 {
+            position: static;
+            left: 200px;
+            top: 200px;
+        }
+        
+        .box5 {
+            left: 250px;
+            top: 250px;
+        }
+    </style>
+</head>
+ 
+<body>
+    <div class="box1 "> Example 1 </div>
+    <div class="box2 "> Example 2 </div>
+    <div class="box3"> Example 3 </div>
+    <div class="box4 "> Example 4 </div>
+    <div class="box5 "> Example 5 </div>
+    <div class="box6 "> Example 6 </div>
+</body>
+ 
+</html>

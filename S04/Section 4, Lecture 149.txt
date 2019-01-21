@@ -1,0 +1,38 @@
+Source Code String method examples
+Section 4, Lecture 149
+<html><head>
+<title>JavaScript</title></head>
+<body>
+<h2>JavaScript</h2>
+<script>
+var myStr1 = "Hello    World   One two three World  World ";
+console.log(myStr1.length);
+var needle = myStr1.indexOf('World');
+console.log(needle);
+var needleLast = myStr1.lastIndexOf('World');
+console.log(needleLast);
+var needleFind = myStr1.indexOf('World', 25);
+console.log(needleFind);
+var needleSearch = myStr1.search('World');
+console.log(needleSearch);
+ 
+ 
+function check(val){
+    var checkVal = myStr1.indexOf(val);
+    if(checkVal < 0){
+        message('Not found :(');
+    }else{
+        message('Found at ' + checkVal + ' position in the string');
+    }
+    console.log(checkVal);
+}
+ 
+function message(mes){
+    document.querySelector('h2').innerHTML = mes;
+}
+ 
+ 
+       
+</script>
+</body>
+</html>

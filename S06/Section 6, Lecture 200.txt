@@ -1,0 +1,60 @@
+JavaScript Object Examples
+Section 6, Lecture 200
+<html>
+ 
+<head>
+    <title>JSON</title>
+</head>
+ 
+<body>
+    <div id="output1"></div>
+    <div id="output2"></div>
+    <script>
+        var output1 = document.getElementById("output1");
+        var output2 = document.getElementById("output2");
+        var obj = {
+            "people": [
+                {
+                    "firstName": "Laurence"
+                    , "last": "Svekis"
+                    , "age": 30
+                }
+                , {
+                    "firstName": "Mike"
+                    , "last": "Smith"
+                    , "age": 50
+                }
+                , {
+                    "firstName": "Linda"
+                    , "last": "Jones"
+                    , "age": 40
+                }
+                
+                , {
+                    "firstName": "Steve"
+                    , "last": "Jones"
+                    , "age": 40
+                }
+            ]
+            , "places": [
+                {
+                    "location": "Toronto"
+                    , "lat": 70
+                }
+                , {
+                    "location": "New York"
+                    , "lat": 80
+                }
+            ]
+        }
+        console.log(obj);
+        var temp = {
+                    "firstName": "Alex"
+                    , "last": "Micheals"
+                    , "age": 22
+        }
+        obj.people.push(temp);
+    </script>
+</body>
+ 
+</html>

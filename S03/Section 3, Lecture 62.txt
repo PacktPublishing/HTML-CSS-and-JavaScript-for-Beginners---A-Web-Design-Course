@@ -1,0 +1,25 @@
+CSS section resources and Source Code
+Section 3, Lecture 62
+Download the resources of source code for this section
+
+Sample and examples attached
+
+Check out the CSS PDF with lesson plans
+
+https://developer.mozilla.org/en-US/docs/Web/CSS
+
+https://css-tricks.com/almanac/
+
+http://brackets.io/
+
+
+
+<link rel="stylesheet" href="style1.css" />
+<style>
+h1 {color: blue;}
+h1 {color: yellow;}
+</style>
+<h1><font color="green">Test Text 1</font></h1>
+<h1 style="color: red;">Test Text 2</h1>
+<h1>Test Text 3</h1>
+<h1>Test Text 4</h1>

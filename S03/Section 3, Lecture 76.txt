@@ -1,0 +1,55 @@
+CSS Background Color style example
+Section 3, Lecture 76
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>CSS example</title>
+<style>
+    body{
+/*        background-image: url(CSS.png);
+        background-repeat:no-repeat;
+        background-position: top right;
+        background-attachment: fixed;
+        background-color: aqua;*/
+        background: aqua url(CSS.png) no-repeat right top;
+    }
+    .green1{
+        color:green;
+        
+    }
+    .green2{
+        color:#00FF00;
+        background:red;
+    }
+    .green3{
+        color: rgb(0,255,0);
+    }
+    .green4{
+        color:rgba(0,255,0,1);
+    }
+ 
+    p{
+        height: 200px;
+    }
+    
+    </style>
+</head>
+ 
+<body>
+  <ol>
+        <li class="green1"> Example 1 </li>
+        <li class="green2"> Example 2 </li>
+        <li class="green3"> Example 3 </li>
+        <li class="green4"> Example 4 </li>
+    </ol>
+    hello world
+    <p>Hello World</p>
+     <p>Hello World</p> <p>Hello World</p> <p>Hello World</p>
+    
+    
+    
+    
+    </body>
+ 
+</html>

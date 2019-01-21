@@ -1,0 +1,29 @@
+JavaScript Source Code Array examples
+Section 4, Lecture 141
+<html><head>
+<title>JavaScript</title></head>
+<body>
+<h2>JavaScript</h2>
+<button type="button" onclick="message('hello world')">Click</button>
+<script>
+ 
+ 
+ 
+ 
+var myArray1 = ['Laurence','Svekis',30,false]; 
+var val1 = myArray1.push('test');
+console.log(myArray1);
+var val2 = myArray1.pop();
+console.log(val2);
+var val3 = myArray1.shift();
+myArray1.unshift('First');
+var val4 = myArray1.splice(1,1);
+ 
+ 
+/*myArray1[myArray1.length] = "last "+ myArray1.length;
+myArray1[2] =  40;*/
+ 
+      
+</script>
+</body>
+</html>

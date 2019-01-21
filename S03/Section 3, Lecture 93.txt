@@ -1,0 +1,153 @@
+CSS Float examples source code
+Section 3, Lecture 93
+
+
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>Example 11</title>
+    <style>
+        .container div {
+            border: 1px solid blue;
+            width: 100px;
+            height: 50px;
+            float: left;
+        }
+        
+        .floater {
+            float: left;
+        }
+        
+        .clearfx {
+            /*clear: both;*/
+        }
+        
+        .box1 {
+            
+        }
+        
+        .box2 {
+         
+        }
+        
+        .box3 {
+           
+        }
+        
+        .box4 {
+            /*clear: both;*/
+            border: 1px solid red;
+            width: 150px;
+            height: 50px;
+        }
+    </style>
+</head>
+ 
+<body>
+    <section class=" container">
+        <div class="box1 "> Example 1 </div>
+        <div class="box2 "> Example 2 </div>
+        <div class="box3"> Example 3 </div>
+    </section>
+    <div class="box4 "> Example 4 </div>
+</body>
+ 
+</html>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>Float Elements</title>
+    <style>
+        .container div {
+            border: 1px solid blue;
+            width: 100px;
+            height: 70px;
+            float: left;
+        }
+        
+        .box4 {
+            border: 1px solid red;
+            width: 150px;
+            height: 100px;
+            clear: both;
+        }
+    </style>
+</head>
+ 
+<body>
+    <section class=" container">
+        <div class="box1 "> Example 1 </div>
+        <div class="box2 "> Example 2 </div>
+        <div class="box3"> Example 3 </div>
+    </section>
+    <div class="box4 "> Example 4 </div>
+    <div class="box5 "> Example 5 </div>
+    <div class="box6 "> Example 6 </div>
+</body>
+ 
+</html>
+
+
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>Example 10</title>
+    <style>
+        img{
+            float:left;
+            max-width: 100px;
+        }
+    </style>
+</head>
+ 
+<body>
+    <div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  <a href="https://placeholder.com"><img src="https://via.placeholder.com/350x150"></a>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  <a href="https://placeholder.com"><img src="https://via.placeholder.com/250x250"></a>nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+   
+    </div>
+</body>
+ 
+</html>
+ 
+ 
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>Floats CSS</title>
+    <style>
+        img{
+            max-width: 100%;
+            float: left;
+        }
+        .myClass2 img{
+ 
+            float: right;
+        }
+    </style>
+</head>
+ 
+<body>
+    <div class="myClass1">
+        <h1 class="myClass2"><a href="https://placeholder.com"><img src="https://via.placeholder.com/350x150"></a>Lorem ipsum dolor sit amet consectetuer adipiscing 
+elit</h1>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa <strong>strong</strong>. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, <img src="https://via.placeholder.com/350x150">pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede <a class="external ext" href="#">link</a> mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</div>
+    <div class="myClass3">Lorem ipsum dolor sit amet consectetuer adipiscing elit</div>
+    <div class="myClass4">
+        <h2>Aenean commodo ligula eget dolor aenean massa</h2><img src="https://via.placeholder.com/350x150">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</div>
+</body>
+ 
+</html>

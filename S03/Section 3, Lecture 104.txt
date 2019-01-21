@@ -1,0 +1,24 @@
+CSS Exercise #4 source code
+Section 3, Lecture 104
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> CSS Exercise 4 </title>
+    <style>
+        img{
+            width: 30%;
+            float: left;
+            margin: 1.66%
+        }
+    </style>
+</head>
+ 
+<body>
+    <section> <img src="https://via.placeholder.com/250x250"> <img src="https://via.placeholder.com/250x250"> <img src="https://via.placeholder.com/250x250"> <img src="https://via.placeholder.com/250x250"> <img src="https://via.placeholder.com/250x250"> <img src="https://via.placeholder.com/250x250"> <img src="https://via.placeholder.com/250x250"> <img src="https://via.placeholder.com/250x250"> <img src="https://via.placeholder.com/250x250"> </section>
+</body>
+ 
+</html>

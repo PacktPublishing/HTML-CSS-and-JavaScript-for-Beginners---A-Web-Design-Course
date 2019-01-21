@@ -1,0 +1,27 @@
+HTML Form Sample Code
+Section 2, Lecture 47
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>HTML Course</title>
+</head>
+ 
+<body>
+    <form action="newPage.html" method="post">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="userName" required placeholder="User Name"> </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"> </div>
+        <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" cols="40" maxlength="40" placeholder="Message">The text goes here</textarea>
+        </div>
+        <div>
+            <input type="submit"> </div>
+    </form>
+</body>
+ 
+</html>

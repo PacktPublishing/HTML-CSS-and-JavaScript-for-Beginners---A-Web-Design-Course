@@ -1,0 +1,48 @@
+Exercise #9 Source Code
+Section 2, Lecture 57
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>HTML Course</title>
+</head>
+ 
+<body>
+    <form action="newPage.html" method="get">
+        <fieldset>
+            <legend>Required Information</legend>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="userName" required placeholder="User Name"> </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"> </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"> </div>
+        </fieldset>
+        <div>
+            <select name="subject">
+                <option value="Support">Support</option>
+                <option value="Info" selected>Say Hello</option>
+                <option value="Billing">Billing</option>
+            </select>
+        </div>
+        <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" cols="40" maxlength="40" placeholder="Message">The text goes here</textarea>
+        </div>
+        <div> What is your gender?
+            <br> Male
+            <input type="radio" name="gender" value="male"> Female
+            <input type="radio" name="gender" value="female"> Other
+            <input type="radio" name="gender" value="other"> </div>
+        <div> Do you agree?
+            <br>
+            <input type="checkbox" name="TOS" value="yes"> </div>
+        <div>
+            <input type="submit"> </div>
+    </form>
+</body>
+ 
+</html>

@@ -1,0 +1,34 @@
+Array Object JavaScript Output example
+Section 6, Lecture 195
+<html>
+<head>
+    <title>JSON</title>
+</head>
+<body>
+    <div id="output1"></div>
+    <div id="output2"></div>
+    <script>
+    var output1 = document.getElementById("output1");
+    var output2 = document.getElementById("output2");
+    var obj = {
+            "people":[
+                {
+                    "firstName" : "Laurence",
+                    "last" : "Svekis",
+                    "age" : 30
+                },
+                {
+                    "firstName" : "Mike",
+                    "last" : "Smith",
+                    "age" : 50
+                }
+            ]
+        }
+    console.log(obj);
+    output1.innerHTML = obj.people[1].firstName + " " + obj.people[1].last;
+    output2.innerHTML = obj.people[0].firstName + " " + obj.people[0].last;
+ 
+ 
+    </script>
+</body>
+</html>

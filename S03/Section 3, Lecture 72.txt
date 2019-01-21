@@ -1,0 +1,37 @@
+CSS element selection Class id and tag
+Section 3, Lecture 72
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>Example 5</title>
+    <style>
+        .red {
+            color: red;
+        }
+        
+        .blue {
+            color: blue;
+        }
+        #one {
+            font-size: 200%;
+            color:yellow;
+        }
+        .smallStuff{
+            font-size: 8px;
+        }
+    </style>
+</head>
+ 
+<body>
+    <p id="one" class="red">Test Text 1</p>
+    <p class="red">>Test Text 2</p>
+    <p class="blue smallStuff">>Test Text 3</p>
+    <p  class="red smallStuff">>Test Text 4</p>
+    <div  class="blue">
+        <div>Test1</div>
+        <div>Test2</div>
+    </div>
+</body>
+ 
+</html>

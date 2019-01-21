@@ -1,0 +1,5 @@
+Exercise #2 Start Code
+Section 2, Lecture 16
+First paragraph text
+Second paragraph text
+Third paragraph text on a new line using line break

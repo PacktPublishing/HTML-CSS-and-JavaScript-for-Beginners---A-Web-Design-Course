@@ -1,0 +1,48 @@
+DOM add event listeners create elements
+Section 5, Lecture 177
+<html>
+<head><title>JavaScript DOM Course</title>
+<style>
+.red{
+    background-color: red;
+    color:brown;
+}
+.blue{
+    background-color: blue;
+    color:aliceblue;
+}
+.test{
+    margin:10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+</style>
+</head>
+<body>
+<ul>
+    <li>My Item</li>
+    <li>Another Item</li>
+    <li>Wow Cool</li>
+    <li>New Color</li>
+</ul>
+<script>
+var eleList = document.querySelectorAll('li');
+console.log(eleList);
+for(var x = 0;x<eleList.length;x++){
+    eleList[x].addEventListener('click',function(){
+        this.classList.toggle('red');
+    })
+}
+ 
+/*
+var ele1 = document.querySelector('ul');
+ele1.addEventListener('click',function(){
+    console.log('click');
+    ele1.style.color = "yellow";
+})
+*/
+ 
+ 
+</script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+JavaScript Fetch
+Section 6, Lecture 209
+<html>
+<head>
+    <title>JSON</title>
+</head>
+<body>
+    <script>
+ 
+        const url = "https://api.myjson.com/bins/hqys2";
+        fetch(url).then(function(response){
+            return response.json()
+        }).then(function (data){
+            console.log(data.first);
+        })
+ 
+    </script>
+</body>
+</html>
+<html>
+<head>
+    <title>JSON</title>
+</head>
+<body>
+<div id="output"></div>
+    <script>
+        const output = document.getElementById("output");
+        const url = "https://randomuser.me/api/";
+        fetch(url).then(function(rep){
+            return rep.json()
+        }).then(function(data){
+            console.log(data.results[0]);
+            let person = data.results[0].name;
+            output.innerHTML = person.first + " " + person.last;
+        })
+ 
+    </script>
+</body>
+</html>
+
+
+<html>
+ 
+<head>
+    <title>JSON</title>
+</head>
+ 
+<body>
+    <div id="output"></div>
+    <script>
+        const url = "https://api.myjson.com/bins/hqys2";
+        fetch(url).then(res => {
+            return res.json();
+        }).then(data => {
+            console.log(data);
+        }).catch(error => {
+            console.log(error);
+        })
+        
+        var url = "https://api.myjson.com/bins/hqys2";
+        fetch(url).then(function (res) {
+            return res.json();
+        }).then(function (data) {
+            console.log(data);
+        }).catch(function (error) {
+            console.log(error);
+        });
+    </script>
+</body>
+ 
+</html>

@@ -1,0 +1,5 @@
+jQuery addClass removeClass html examples
+Section 7, Lecture 223
+$("div").addClass("red");
+$("h1").html("Hello World").addClass("red");
+$("h1").removeClass("red");

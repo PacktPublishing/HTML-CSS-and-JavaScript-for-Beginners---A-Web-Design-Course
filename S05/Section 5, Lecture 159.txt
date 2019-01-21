@@ -1,0 +1,14 @@
+Source Code and Resources
+Section 5, Lecture 159
+download the section source code
+
+http://brackets.io/
+
+https://developers.google.com/web/tools/chrome-devtools/
+
+https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
+
+https://en.wikipedia.org/wiki/Document_Object_Model
+
+console.dir(document);
+console.log(document.URL);

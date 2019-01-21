@@ -1,0 +1,17 @@
+CSS hyperlink source code
+Section 3, Lecture 106
+a:link {
+    color: purple;
+}
+ 
+a:visited {
+    color: red;
+}
+ 
+a:hover {
+    color: aquamarine
+}
+ 
+a:active {
+    color: green;
+}

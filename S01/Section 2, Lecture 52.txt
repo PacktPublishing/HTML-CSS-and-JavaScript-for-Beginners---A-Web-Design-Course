@@ -1,0 +1,34 @@
+Source Code sample input type
+Section 2, Lecture 52
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>HTML Course</title>
+</head>
+ 
+<body>
+    <form action="" method="get">
+        <input type="color" name="color">
+        <br>
+        <input type="date" name="date">
+        <br>
+        <input type="number" name="number" min="10" max="50">
+        <br>
+        <input type="url" name="url">
+        <br>
+        <input type="file" name="file">
+        <br>
+        <input type="range" min="10" max="50" name="range">
+        <br>
+        <input type="datetime-local" name="dtl">
+        <br>
+        <input type="checkbox" name="checkbox1" value="checked off" checked>
+        <input type="checkbox" name="checkbox2" value="I agree">
+        <input type="radio" name="radioButton" value="one">
+        <input type="radio" name="radioButton" value="two">
+        <input type="radio" name="radioButton" value="three">
+        <input type="submit"> </form>
+</body>
+ 
+</html>

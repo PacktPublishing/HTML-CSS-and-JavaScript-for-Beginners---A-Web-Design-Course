@@ -1,0 +1,36 @@
+Source Code Objects
+Section 4, Lecture 136
+<html><head>
+<title>JavaScript</title></head>
+<body>
+<h2>JavaScript</h2>
+<button type="button" onclick="message('hello world')">Click</button>
+<script>
+ 
+var person1 = {
+    first:'Mike',
+    last:'Svekis'
+}
+ 
+var person = {};
+person.first = "Laurence";
+person.last = "Svekis";
+person.message = function(){
+    return 'hello ' + person.first;
+}
+person.age = 30;
+person.alive = true;
+ 
+function fun1(){
+    console.log('fun1');
+}
+var fun2 = function(){
+    console.log('fun2');
+}
+ 
+ 
+ 
+//document.querySelector('h2').innerHTML = message;           
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+Source Code Let and Const ES6
+Section 4, Lecture 151
+<html><head>
+<title>JavaScript</title></head>
+<body>
+<h2>JavaScript</h2>
+<script>
+ 
+var a = 'one'; //global
+function test(){
+    var a = 'two'; //function
+}
+ 
+{
+    let a = 'test';
+    console.log(a);
+}
+ 
+for(let i = 0;i<5;i++){
+    console.log(i);
+}
+for(var y=0;y<5;y++){
+    console.log(y);
+}
+{
+    const a = "test";
+    a ="world";
+}
+      
+</script>
+</body>
+</html>

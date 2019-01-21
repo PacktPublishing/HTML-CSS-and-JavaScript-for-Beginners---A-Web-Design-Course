@@ -1,0 +1,56 @@
+Sample Code HTML lists
+Section 2, Lecture 36
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>HTML Course</title>
+</head>
+ 
+<body>
+    <ul style="list-style-type:lower-alpha ">
+        <li>
+            <ol>
+                <li>List item #1</li>
+                <li>List item #2</li>
+                <li>List item #3</li>
+                <li>List item #4</li>
+            </ol>
+        </li>
+        <li>List item #2</li>
+        <li>List item #3</li>
+        <li>List item #4</li>
+    </ul>
+    <ol type="i" start="5">
+        <li>List item #1</li>
+        <li>List item #2</li>
+        <li>List item #3</li>
+        <li>List item #4</li>
+    </ol>
+    <dl> <dt>One</dt> <dt>One #2</dt>
+        <dd>Whatever you use to describe the item</dd> <dt>Two</dt>
+        <dd>Whatever you use to describe the item</dd> <dt>Three</dt>
+        <dd>Whatever you use to describe the item</dd>
+    </dl>
+    <!--<header>
+        <h1>My Heading</h1>
+        <nav><a href="http://www.google.com" target="_blank">Google</a>
+            <br> <a href="sample%201.html">Sample 1</a>
+            <br> <a href="mailto:example@example.com">Email me </a>
+            <br> <a href="tel:+123432334">Phone Me</a>
+            <br> <a href="#output2">Output #2</a>
+            <br>Home Page</nav>
+    </header>
+    <section>
+        <h1>Qua tu etiam inprudens utebare non numquam.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque solum ea communia, verum etiam paria esse dixerunt. Duo Reges: constructio interrete. At ille pellit, qui permulcet sensum voluptate. Quis est, qui non oderit libidinosam, protervam adolescentiam? Non minor, inquit, voluptas percipitur ex vilissimis rebus quam ex pretiosissimis. Apparet statim, quae sint officia, quae actiones. Itaque hic ipse iam pridem est reiectus; Ne vitationem quidem doloris ipsam per se quisquam in rebus expetendis putavit, nisi etiam evitare posset. </p>
+        <p>Tu vero, inquam, ducas licet, si sequetur; Sin ea non neglegemus neque tamen ad finem summi boni referemus, non multum ab Erilli levitate aberrabimus. Nec tamen ille erat sapiens quis enim hoc aut quando aut ubi aut unde? Quae similitudo in genere etiam humano apparet. Aliter enim nosmet ipsos nosse non possumus. Maximus dolor, inquit, brevis est. </p>
+    </section>
+    <section>
+        <h1>Qua tu etiam inprudens utebare non numquam.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque solum ea communia, verum etiam paria esse dixerunt. Duo Reges: constructio interrete. At ille pellit, qui permulcet sensum voluptate. Quis est, qui non oderit libidinosam, protervam adolescentiam? Non minor, inquit, voluptas percipitur ex vilissimis rebus quam ex pretiosissimis. Apparet statim, quae sint officia, quae actiones. Itaque hic ipse iam pridem est reiectus; Ne vitationem quidem doloris ipsam per se quisquam in rebus expetendis putavit, nisi etiam evitare posset. </p>
+    </section>
+    <footer id="output1"> Copyright my Website </footer>-->
+</body>
+ 
+</html>

@@ -1,0 +1,18 @@
+Source Code inline Styles
+Section 3, Lecture 66
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Example 2</title>
+</head>
+<body>
+    <p style="color: red;">Test Text 1</p>
+    <p style="color: #FF0000; font-size:16px; font-weight:bold ">Test Text 2</p>
+    <p style="color: #FF0000; font-size:24px">Test Text 3</p>
+    <p style="color: #FF0000; font-size:1em">Test Text 4</p>
+    <div style="color:blue;">
+    <div style="color:yellow">Test1</div>
+    <div style="font-size:28px">Test2</div>
+    </div>
+    </body>
+</html>

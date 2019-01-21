@@ -1,0 +1,18 @@
+Exercise #4 HTML images
+Section 2, Lecture 34
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>HTML Course</title>
+</head>
+ 
+<body>
+   <section>
+    <img src="flower.JPG" width="200px">
+       <br>
+    <a href="https://via.placeholder.com/350x150" target="_blank"><img src="https://via.placeholder.com/350x150" ></a>
+    </section>
+</body>
+ 
+</html>

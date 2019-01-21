@@ -1,0 +1,46 @@
+CSS overflow and element alignment source code example
+Section 3, Lecture 113
+textarea {
+    border: 1px solid #888;
+    max-height: 80px;
+    max-width: 80px;
+    overflow: hidden;
+}
+ 
+ul {
+    border: 1px solid #ddd;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+ 
+p {
+    border: 1px solid #ddd;
+}
+ 
+.test1 {
+    position: absolute;
+    right: 0px;
+  background: green;
+}
+ 
+.test2 {
+    float: right;
+/*with no vertical value it keeps it in place.*/
+    width: 200px;
+}
+ 
+.test3 {
+    float: left;
+   
+    width: 200px;
+}
+.test4{
+    float:none;
+}
+.test5{  
+    background: red;
+    position: absolute;
+       top: 10%;
+    left: 10%;
+}

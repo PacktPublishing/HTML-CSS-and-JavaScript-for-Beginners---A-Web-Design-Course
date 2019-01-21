@@ -1,0 +1,75 @@
+Source Code and Examples DOM style and element attributes
+Section 5, Lecture 168
+<html>
+<head><title>JavaScript DOM Course</title>
+<style>
+.red{
+    background-color: red;
+    color:brown;
+}
+.blue{
+    background-color: blue;
+    color:aliceblue;
+}
+.test{
+    margin:10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+</style>
+</head>
+<body>
+<h1 class="test">Lorem ipsum dolor sit amet consectetuer adipiscinelit</h1>
+ 
+<script>
+ 
+var el1 = document.getElementsByClassName('test');
+console.log(el1[0]);
+var tempEle = el1[0];
+tempEle.style.backgroundColor = "Green";
+tempEle.style.color = "white";
+tempEle.style.border = "5px dotted purple";
+tempEle.style.fontSize = "40px";
+tempEle.style.display = "none";
+tempEle.style.display = "block";
+ 
+</script>
+</body>
+</html>
+<html>
+<head><title>JavaScript DOM Course</title>
+<style>
+.red{
+    background-color: red;
+    color:brown;
+}
+.blue{
+    background-color: blue;
+    color:aliceblue;
+}
+.test{
+    margin:10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+</style>
+</head>
+<body>
+<a href="https://placeholder.com"><img src="https://via.placeholder.com/250/00ffff/000000"></a><br>
+<img src="https://via.placeholder.com/350x150/00ff00/ffffff">
+<script>
+var el1 = document.getElementsByTagName('a');
+console.log(el1[0]);
+var el2 = document.getElementsByTagName('img');
+console.log(el2[1]);
+var temp = el1[0].getAttribute('href');
+el1[0].setAttribute('href','http://www.google.com');
+var tempImg1 = el2[0].getAttribute('src');
+var tempImg2 = el2[1].getAttribute('src');
+el2[0].setAttribute('src',tempImg2);
+el2[1].setAttribute('src',tempImg1);
+console.log(tempImg1);
+ 
+</script>
+</body>
+</html>

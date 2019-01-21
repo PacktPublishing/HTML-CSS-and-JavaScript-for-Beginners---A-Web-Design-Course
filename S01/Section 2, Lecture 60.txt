@@ -1,0 +1,125 @@
+Exercise #10 Website Sample HTML
+Section 2, Lecture 60
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>Home Page</title>
+</head>
+ 
+<body>
+    <header>
+        <h1>My first Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <!--Content Area add content here-->
+        <h1>Maximas vero virtutes iacere omnis necesse est voluptate dominante.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae similitudo in genere etiam humano apparet. <b>Quid enim de amicitia statueris utilitatis causa expetenda vides.</b> Duo Reges: constructio interrete. Certe, nisi voluptatem tanti aestimaretis. </p>
+        <blockquote cite='http://loripsum.net'> Mihi autem nihil tam perspicuum videtur, quam has sententias eorum philosophorum re inter se magis quam verbis dissidere; </blockquote>
+        <p><b>Sed quae tandem ista ratio est?</b> At hoc in eo M. Deinde dolorem quem maximum? <i>Videsne, ut haec concinant?</i> <a href='http://loripsum.net/' target='_blank'>Immo alio genere;</a> <i>Torquatus, is qui consul cum Cn.</i> </p>
+    </section>
+    <footer> &copy; My Website </footer>
+</body>
+ 
+</html>
+ 
+ 
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>Home Page</title>
+</head>
+ 
+<body>
+    <header>
+        <h1>My first Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <!--Content Area add content here-->
+        <form>
+            <fieldset>
+                <legend>Contact Info</legend>
+            Your Name:
+            <input type="text" name="userName"><br>
+            Your Email:
+            <input type="email" name="email"><br>
+            Your Message:
+            <textarea name="message"></textarea>
+                <br>
+            <input type="submit">
+            </fieldset>
+        
+        </form>
+    </section>
+    <footer> &copy; My Website </footer>
+</body>
+ 
+</html>
+ 
+ 
+ 
+ 
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>Home Page</title>
+    <style>
+        td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+ 
+<body>
+    <header>
+        <h1>My first Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <!--Content Area add content here-->
+        <a href="https://placeholder.com"><img src="https://via.placeholder.com/350x150"></a>
+        <table>
+            <tr>
+                <td colspan="2">Staff Names</td>
+            </tr>
+            <tr>
+                <td>First</td>
+                <td>Last</td>
+            </tr>
+            <tr>
+                <td>Laurence </td>
+                <td>Svekis</td>
+            </tr>
+            <tr>
+                <td>Mike</td>
+                <td>Smith</td>
+            </tr>
+        </table>
+    </section>
+    <footer> &copy; My Website </footer>
+</body>
+ 
+</html>

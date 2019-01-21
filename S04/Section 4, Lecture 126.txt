@@ -1,0 +1,52 @@
+JavaScript Coding example Variables
+Section 4, Lecture 126
+<html><head>
+<title>JavaScript</title></head>
+<body>
+<h2>JavaScript</h2>
+<button type="button" >Click</button>
+<script>            
+document.querySelector('h2').innerHTML =
+"hello world";   
+var a = "Hello";
+var b = 10;
+var c;
+a = "World";
+b = "Hello";
+c = b + ' ' + a;
+console.log(c);
+            
+            
+            
+            
+</script>
+</body>
+</html>
+
+
+<html><head>
+<title>JavaScript</title></head>
+<body>
+<h2>JavaScript</h2>
+<button type="button" >Click</button>
+<script>            
+document.querySelector('h2').innerHTML =
+"hello world";   
+ 
+var score1,score2,score3,score4;
+ 
+ 
+var a = "Hello \" World \" "; //String
+var b = 10; //Number
+var c = false; //Boolean
+//a = "World";
+//b = "Hello";
+//c = b + ' ' + a;
+console.log(a);
+            
+            
+            
+            
+</script>
+</body>
+</html>

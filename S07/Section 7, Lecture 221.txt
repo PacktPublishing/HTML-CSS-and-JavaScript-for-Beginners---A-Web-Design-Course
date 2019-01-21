@@ -1,0 +1,6 @@
+jQuery text html append prepend example
+Section 7, Lecture 221
+$("li").text("Hello<br>World");
+$("li").html("Hello<br>World");
+$("li").append("<div>APPENDED</div> ");
+$("li").prepend("PREPEND");

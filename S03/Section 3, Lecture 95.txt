@@ -1,0 +1,33 @@
+CSS Box model source example
+Section 3, Lecture 95
+https://www.w3.org/TR/CSS2/box.html
+
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>Box Model</title>
+    <style>
+        .container{
+            padding:5px 10px 15px 20px;
+            border:5px solid black;
+            border-bottom: 15px solid red;
+            margin:20px 15px 10px 5px;
+            width:100px;
+            height:60px;
+        }
+    </style>
+</head>
+ 
+<body>
+    <section class=" container">
+        <div class="box1 "> Example 1 </div>
+        <div class="box2 "> Example 2 </div>
+        <div class="box3"> Example 3 </div>
+    </section>
+    <div class="box4 "> Example 4 </div>
+    <div class="box5 "> Example 5 </div>
+    <div class="box6 "> Example 6 </div>
+</body>
+ 
+</html>

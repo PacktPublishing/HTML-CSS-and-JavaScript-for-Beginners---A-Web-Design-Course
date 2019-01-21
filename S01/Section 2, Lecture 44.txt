@@ -1,0 +1,61 @@
+Sample Tables
+Section 2, Lecture 44
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>HTML Course</title>
+    <style>
+        table,
+        td {
+            border: 1px solid #333;
+            width: 200px;
+        }
+        
+        thead,
+        tfoot {
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+ 
+<body>
+    <table>
+        <thead>
+            <tr>
+                <td>First Name</td>
+                <td colspan="2">Last Name</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Laurence </td>
+                <td colspan="2">Svekis</td>
+            </tr>
+            <tr>
+                <td colspan="3">Laurence Svekis More info here</td>
+            </tr>
+            <tr>
+                <td>Test</td>
+                <td>Test</td>
+                <td rowspan="3">Test</td>
+            </tr>
+            <tr>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Footer</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+ 
+</html>

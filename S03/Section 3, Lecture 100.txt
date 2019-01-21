@@ -1,0 +1,36 @@
+CSS outline source code examples
+Section 3, Lecture 100
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>Outline</title>
+    <style>
+        .test1{
+            outline-style: dashed;
+            outline-color: red;
+            outline-width: thick;
+            border: 5px solid blue;
+            margin: 5px;
+        }
+        .test2{
+            outline-style: groove;
+            border: 5px dotted yellow;
+        }
+    </style>
+</head>
+ 
+<body>
+    <section class="container">
+        <div class="test1 "> Example 1 </div>
+        <div class="test2 "> Example 2 </div>
+        <div class="test3"> Example 3 </div>
+    </section>
+    <div class="test4 "> Example 4 </div>
+    <div class="test5 "> Example 5 </div>
+    <div class="test6 "> Example 6 </div>
+    <div class="test7 "> Example 7 </div>
+    <div class="test8 "> Example 8 </div>
+</body>
+ 
+</html>

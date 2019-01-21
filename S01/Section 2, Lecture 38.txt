@@ -1,0 +1,46 @@
+Exercise #5 Source code
+Section 2, Lecture 38
+<!doctype html>
+<html lang="en">
+ 
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style></style>
+</head>
+ 
+<body>
+    <header>
+        <h1>My Heading</h1>
+        <nav> 
+            <a href="example%201.html">Example 1</a>
+            <a href="#output1">Home Page</a>
+            <a href="https://www.google.com" target="_blank">Website</a> 
+            
+            
+            <a href="mailto:spamaddress@example.com">Email</a> <a href="tel:+123456789">Phone</a> </nav>
+    </header>
+    <section>
+        <!-- Main content area -->
+        <h1>Quid de Platone aut de Democrito loquar?</h1>
+        <img src="flower.JPG" width="200px">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Occultum facinus esse potuerit, gaudebit; Duo Reges: constructio interrete. <b>An eiusdem modi?</b> Sed ego in hoc resisto; Eam stabilem appellas. <b>At hoc in eo M.</b> Tria genera bonorum; Sed fortuna fortis; </p>
+        <p>Odium autem et invidiam facile vitabis. Sedulo, inquam, faciam. Quis istud possit, inquit, negare? Certe, nisi voluptatem tanti aestimaretis. </p>
+        <p>Second paragraph text </p>
+        <p>Third paragraph text
+            <br> on a new line using line break </p>
+    </section>
+    <section id="output1">
+        <h1>Ergo, si semel tristior effectus est, hilara vita amissa est?</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <b>Si quae forte-possumus.</b> Zenonis est, inquam, hoc Stoici. </p>
+        <h3>Quae animi affectio suum cuique tribuens atque hanc, quam dico.</h3>
+        <p>Sint modo partes vitae beatae. Bonum liberi: misera orbitas. Aliter enim nosmet ipsos nosse non possumus. Deinde disputat, quod cuiusque generis animantium statui deceat extremum. <a href='http://loripsum.net/' target='_blank'>Haec para/doca illi, nos admirabilia dicamus.</a> Nam ista vestra: Si gravis, brevis; Sed fortuna fortis; </p>
+        <h2>Sed virtutem ipsam inchoavit, nihil amplius.</h2>
+        <p>Duo Reges: constructio interrete. Idemne potest esse dies saepius, qui semel fuit? Istam voluptatem, inquit, Epicurus ignorat? </p>
+    </section>
+    <footer>
+        <!-- Footer content area -->&copy; Copyright my Website </footer>
+</body>
+ 
+</html>

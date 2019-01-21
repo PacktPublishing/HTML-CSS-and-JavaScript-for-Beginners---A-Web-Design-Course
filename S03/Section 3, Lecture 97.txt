@@ -1,0 +1,114 @@
+CSS Exercise #3 Source Code
+Section 3, Lecture 97
+1. create background of body to color #3C3176;
+
+2. make H2 #10073B
+
+3. make section background #867DB0 with dotted border.  add small margin top/bottom only to separate the sections.  Padding for slight indent of text.  Add a minimum height to the sections
+
+4. create nav bar - using padding and colors #231858 background #FFF font;
+
+5. make logo font color white, align center, font 6. size 1.5em and font style fantasy
+
+import your favorite google font and add to the body
+
+7. footer padding and centered text with grey background
+
+8. images to max size of 150px and to be right aligned
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> CSS Exercise 3 </title>
+    <link rel="stylesheet" type="text/css" href="exer3.css">
+  </head>
+ 
+<body>
+    <header>
+        <div class="logo">My Company website.</div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Page Title</h2>
+        <p class="highlight">First paragraph <a href="http://www.google.com">Google</a></p>
+        <p class="bigText">second paragraph</p>
+    </section>
+    <section>
+        <h3>Section Heading</h3>
+        <p class="oneText">First <span class="highlight">paragraph</span></p>
+        <p class="twoText">second paragraph<img src="https://via.placeholder.com/250x250"></p>
+    </section>
+    <section>
+        <h3>Section Heading</h3>
+        <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            <a href="https://placeholder.com"><img src="https://via.placeholder.com/250x250"></a>nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+    </section>
+    <footer>
+        <p>My company footer</p>
+    </footer>
+</body>
+ 
+</html>
+@import url('https://fonts.googleapis.com/css?family=Mali');
+body{
+    font-family: 'Mali', cursive;
+    background-color: #3c3176;
+}
+ 
+.logo{
+    color:white;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 40px;
+    font-family: fantasy;
+}
+h2, h3{
+    color: #10073B;
+}
+ 
+section{
+    min-height: 300px;
+    padding: 5px;
+    background-color: #867DB0;
+    margin: 5px 0;
+    border: 5px dotted white;
+}
+ 
+header{
+    background-color: black;
+}
+ 
+li{
+    list-style: none;
+    display: inline-block;
+    background-color: #231858;
+    color:white;
+    width:70px;
+    padding: 5px 20px;
+    margin: 5px;
+    text-align: center;
+}
+ 
+img{
+    max-width: 150px;
+    float: right;
+}
+ 
+footer{
+    background-color: darkgray;
+    color:white;
+    text-align: center;
+    padding:30px;
+}

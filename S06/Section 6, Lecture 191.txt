@@ -1,0 +1,29 @@
+Output JSON JavaScript Object Example
+Section 6, Lecture 191
+<html>
+ 
+<head>
+    <title>JSON</title>
+</head>
+ 
+<body>
+    <div id="output1"></div>
+    <div id="output2"></div>
+    <script>
+       var myObj = {
+           "firstName":"Mike",
+           "lastName":"Svekis",
+           "age":30
+           }
+       console.log(myObj);
+       var output1 = document.getElementById("output1");
+       var output2 = document.getElementById("output2");
+       output1.innerHTML = myObj.firstName;
+       output2.innerHTML = myObj.lastName;
+       
+       
+       
+    </script>
+</body>
+ 
+</html>

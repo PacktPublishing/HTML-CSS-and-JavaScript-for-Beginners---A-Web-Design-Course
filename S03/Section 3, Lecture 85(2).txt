@@ -1,0 +1,43 @@
+http://www.blindtextgenerator.com/snippets?snipps=ANY-snippets-lorem 
+
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>Example 13</title>
+    <style>
+        .test1 {
+            text-align: center;
+            text-transform:uppercase;
+        }
+        
+        .test2 {
+            text-align: left;
+            font-style: italic;
+        }
+        
+        .test3 {
+            text-align: right;
+            font-weight: bold;
+            text-decoration: line-through;
+        }
+        
+        .test4 {
+            text-decoration: underline;
+            word-spacing: 20px;
+            font-size: 2.5em;
+        }
+    </style>
+</head>
+ 
+<body>
+    <ul>
+        <li class="test1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</li>
+        <li class="test2">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</li>
+        <li class="test3">Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</li>
+        <li class="test4">In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</li>
+    </ul>
+</body>
+ 
+</html>
+ 

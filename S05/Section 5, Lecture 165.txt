@@ -1,0 +1,107 @@
+JavaScript DOM Examples and source code
+Section 5, Lecture 165
+<html>
+<head><title>JavaScript DOM Course</title></head>
+<body>
+<h1>Lorem ipsum dolor sit amet consectetuer adipiscinelit</h1>
+<ul>
+  <li id="one">Lorem ipsum dolor sit amet consectetuer.</li>
+  <li class="highlight">Aenean commodo ligula eget dolor.</li>
+  <li>Aenean massa cum sociis natoque penatibus.</li>
+</ul>
+<p  class="highlight">Lorem ipsum dolor sit amet, consectetuer adipiscing 
+elit. Aenean commodo ligula eget dolor. Aenean massa. 
+Cum sociis natoque penatibus et magnis dis parturient 
+montes, nascetur ridiculus mus. Donec quam felis, 
+ultricies nec, pellentesque eu, pretium quis, sem.</p>
+<ul>
+  <li  class="highlight">Lorem ipsum dolor sit amet consectetuer.</li>
+  <li>Aenean commodo ligula eget dolor.</li>
+  <li>Aenean massa cum sociis natoque penatibus.</li>
+</ul>
+<script>
+ 
+ 
+var el1 = document.getElementById('one');
+el1.style.background ="yellow";
+var el2 = document.getElementsByTagName('li');
+console.log(el2);
+var el3 = document.getElementsByClassName('highlight');
+console.log(el3);
+var el4 = document.querySelector('.highlight');
+console.log(el4);
+var el5 = document.querySelectorAll('.highlight');
+console.log(el5);
+el5[1].style.color = 'yellow';
+ 
+</script>
+</body>
+</html>
+<html>
+<head><title>JavaScript DOM Course</title></head>
+<body>
+<h1>Lorem ipsum dolor sit amet consectetuer adipiscinelit</h1>
+<ul>
+  <li id="one">Lorem ipsum dolor sit amet consectetuer.</li>
+  <li class="highlight">Aenean commodo ligula eget dolor.</li>
+  <li>Aenean massa cum sociis natoque penatibus.</li>
+</ul>
+<p  class="highlight">Lorem ipsum dolor sit amet, consectetuer adipiscing 
+elit. Aenean commodo ligula eget dolor. Aenean massa. 
+Cum sociis natoque penatibus et magnis dis parturient 
+montes, nascetur ridiculus mus. Donec quam felis, 
+ultricies nec, pellentesque eu, pretium quis, sem.</p>
+<ul>
+  <li  class="highlight">Lorem ipsum dolor sit amet consectetuer.</li>
+  <li>Aenean commodo ligula eget dolor.</li>
+  <li>Aenean massa cum sociis natoque penatibus.</li>
+</ul>
+<script>
+ 
+ 
+var el1 = document.querySelector('.highlight');
+console.log(el1);
+el1.textContent = "HELLO";
+el1.innerHTML = "Hello <br> World"
+el1.textContent;
+el1.outerHTML = "HELLO <BR> WORLD";
+ 
+</script>
+</body>
+</html>
+
+
+<html>
+<head><title>JavaScript DOM Course</title>
+<style>
+.red{
+    background-color: red;
+    color:brown;
+}
+.blue{
+    background-color: blue;
+    color:aliceblue;
+}
+.test{
+    margin:10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+</style>
+</head>
+<body>
+<h1 class="test">Lorem ipsum dolor sit amet consectetuer adipiscinelit</h1>
+ 
+<script>
+ 
+var el1 = document.querySelector('h1');
+console.dir(el1);
+el1.classList.add('red');
+el1.classList.toggle('red');
+el1.classList.toggle('red');
+el1.classList.remove('test');
+//el1.className = "red";
+ 
+</script>
+</body>
+</html>

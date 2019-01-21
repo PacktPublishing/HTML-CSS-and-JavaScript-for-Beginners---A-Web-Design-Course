@@ -1,0 +1,56 @@
+JavaScript Local Storage examples and source code
+Section 6, Lecture 205
+<html>
+ 
+<head>
+    <title>JSON</title>
+</head>
+ 
+<body>
+    <div id="output1"></div>
+    <div id="output2"></div>
+    <script>
+        var output1 = document.getElementById("output1");
+        var output2 = document.getElementById("output2");
+        var temp = {
+                    "firstName": "Alex"
+                    , "last": "Micheals"
+                    , "age": 22
+        }
+        var tempString = JSON.stringify(temp);
+        //localStorage.setItem('test',tempString);
+        var tempObj = localStorage.getItem('test');
+        console.log(tempObj);
+        var obj2 = JSON.parse(tempObj);
+        
+        
+    </script>
+</body>
+ 
+</html>
+<html>
+ 
+<head>
+    <title>JSON</title>
+</head>
+ 
+<body>
+    <div id="output1"></div>
+ 
+    <script>
+        var output1 = document.getElementById("output1");
+        var obj1 ={
+            "name" : "Laurence",
+            "total" :100
+        }
+        var objStr1 = JSON.stringify(obj1);
+        //localStorage.setItem('myObj',objStr1);
+        var objStr2 = localStorage.getItem('myObj');
+        var obj2 = JSON.parse(objStr2);
+        output1.innerHTML = obj2.name;
+        
+        
+    </script>
+</body>
+ 
+</html>

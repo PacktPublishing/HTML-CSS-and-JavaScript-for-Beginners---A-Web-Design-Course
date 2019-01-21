@@ -1,0 +1,147 @@
+JavaScript DOM events
+Section 5, Lecture 173
+<html>
+<head><title>JavaScript DOM Course</title>
+<style>
+.red{
+    background-color: red;
+    color:brown;
+}
+.blue{
+    background-color: blue;
+    color:aliceblue;
+}
+.test{
+    margin:10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+</style>
+</head>
+<body>
+<ul>
+    <li class="listItem">My Item</li>
+    <li>Another Item</li>
+    <li class="listItem">Wow Cool</li>
+    <li class="listItem">New Color</li>
+</ul>
+<script>
+ 
+var eleList = document.querySelectorAll('.listItem');
+for(var x=0;x<eleList.length;x++){
+    eleList[x].addEventListener('click',makeItRed);
+}
+ 
+function makeItRed(){
+        console.log(this);
+        var temp = this.classList.toggle('red');
+        console.log(temp);
+}
+ 
+/*var ele1 = document.querySelector('ul');
+ele1.addEventListener('click',function(){
+    console.log('click');
+    ele1.style.color = "yellow";
+})*/
+ 
+ 
+</script>
+</body>
+</html>
+ 
+ 
+Key Events
+
+<html>
+<head><title>JavaScript DOM Course</title>
+<style>
+.red{
+    background-color: red;
+    color:brown;
+}
+.blue{
+    background-color: blue;
+    color:aliceblue;
+}
+.test{
+    margin:10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+</style>
+</head>
+<body>
+<ul>
+    <li class="listItem">My Item</li>
+    <li>Another Item</li>
+    <li class="listItem">Wow Cool</li>
+    <li class="listItem">New Color</li>
+</ul>
+<script>
+ 
+var eleList = document.querySelectorAll('.listItem');
+for(var x=0;x<eleList.length;x++){
+    eleList[x].addEventListener('click',makeItRed);
+}
+ 
+function makeItRed(){
+        console.log(this);
+        var temp = this.classList.toggle('red');
+        console.log(temp);
+}
+ 
+/*var ele1 = document.querySelector('ul');
+ele1.addEventListener('click',function(){
+    console.log('click');
+    ele1.style.color = "yellow";
+})*/
+ 
+ 
+</script>
+</body>
+</html>
+Mouse Events
+
+<html>
+<head><title>JavaScript DOM Course</title>
+<style>
+.red{
+    background-color: red;
+    color:brown;
+}
+.blue{
+    background-color: blue;
+    color:aliceblue;
+}
+.test{
+    margin:10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+</style>
+</head>
+<body>
+<ul>
+    <li>My Item</li>
+    <li>Another Item</li>
+    <li>Wow Cool</li>
+    <li>New Color</li>
+</ul>
+<input type="text" name="newItem">
+ 
+<script>
+ 
+var eleList =  document.querySelectorAll('li');
+for(var x=0;x<eleList.length;x++){
+    console.log(eleList[x]);
+    eleList[x].addEventListener('mouseover',function(){
+        this.classList.add('red');
+    });
+    eleList[x].addEventListener('mouseout',function(){
+        this.classList.remove('red');
+    })
+}
+ 
+</script>
+</body>
+</html>

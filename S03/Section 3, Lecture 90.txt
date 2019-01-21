@@ -1,0 +1,81 @@
+CSS Exercise #2 Source Code and examples
+Section 3, Lecture 90
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> CSS Exercise 2 </title>
+    <link rel="stylesheet" href="exercise2.css" type="text/css">
+</head>
+ 
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Page Title</h2>
+        <p class="highlight">First paragraph <a href="http://www.google.com">Google</a></p>
+        <p class="bigText">second paragraph</p>
+    </section>
+    <section>
+        <h3>Section Heading</h3>
+        <p class="oneText">First <span class="highlight">paragraph</span></p>
+        <p class="twoText">second paragraph</p>
+    </section>
+    <footer>
+        <p>My company footer</p>
+    </footer>
+</body>
+ 
+</html>
+ 
+.highlight {
+    background-color: yellow;
+}
+ 
+.bigText {
+    font-size: 200%;
+    font-weight: bold;
+    font-family: fantasy;
+    font-style: italic;
+}
+ 
+.oneText {
+    text-align: center;
+}
+ 
+li a {
+    text-decoration: none;
+}
+ 
+li {
+    display: inline-block;
+    background-color: red;
+    color: white;
+}
+ 
+.twoText {
+    line-height: 30px;
+}
+ 
+footer {
+    background-color: grey;
+    color: white;
+}
+ 
+body {
+    background-color: bisque;
+}
+ 
+section {
+    background-color: aliceblue;
+}

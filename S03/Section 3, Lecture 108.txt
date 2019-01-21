@@ -1,0 +1,56 @@
+Source Code Pseudo Selection Classes CSS
+Section 3, Lecture 108
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>CSS Hyperlinks</title>
+    <style>
+        a{
+           text-decoration: none; 
+        }
+        a:link {
+            color:red;
+        }
+        a:visited{
+            color:green;
+        }
+        a:hover{
+            color:pink;
+        }
+        a:active{
+            color:aqua;
+        }
+        div:hover{
+            background-color: yellow;
+            font-size: 2em;
+        }
+/*        .container div:last-child{
+            background: purple;
+        }*/
+        .container div:nth-child(2){
+            background: yellow;
+        }
+    </style>
+</head>
+ 
+<body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#1">Services</a></li>
+        <li><a href="#2">About</a></li>
+        <li><a href="#3">Contact</a></li>
+    </ul>
+    <section class="container">
+        <div class="test1 "> Example 1 </div>
+        <div class="test2 "> Example 2 </div>
+        <div class="test3"> Example 3 </div>
+    </section>
+    <div class="test4 "> Example 4 </div>
+    <div class="test5 "> Example 5 </div>
+    <div class="test6 "> Example 6 </div>
+    <div class="test7 "> Example 7 </div>
+    <div class="test8 "> Example 8 </div>
+</body>
+ 
+</html>

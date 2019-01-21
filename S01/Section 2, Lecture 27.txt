@@ -1,0 +1,40 @@
+Exercise #3
+Section 2, Lecture 27
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise #3</title>
+    </head>
+<body>
+    <header>
+        <h1>My Heading</h1>
+        <nav>Home Page</nav>
+    </header>
+    <section>
+    <p>First paragraph text
+This one is <strong>bolded,</strong> this is <em>italic!!!</em>
+</p>
+ <p>Second paragraph text</p>
+ 
+ <p>Third paragraph text <br>
+on a new line using line break</p>
+    </section>
+    </body>
+ 
+</html>
+ 
+ 
+ 
+ 
+ 
+<!-- Main content area -->
+ 
+ 
+ 
+<!-- Side section content -->
+ 
+Just some plain text
+ 
+<!-- Footer content area -->
+ 
+Copyright my Website

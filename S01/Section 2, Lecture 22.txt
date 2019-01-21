@@ -1,0 +1,34 @@
+Text Formatting Sample Code
+Section 2, Lecture 22
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>Template</title>
+</head>
+ 
+<body> <b> Bold text </b> Hello World
+    <br> <strong>Strong Text </strong> Hello World
+    <br> <i> - Italic text </i> Hello World
+    <br><em> - Emphasized text</em> Hello World
+    <br>
+    <mark> - Marked text </mark> Hello World
+    <br> <small> - Small text</small> Hello World
+    <br> <del> - Deleted text</del> Hello World
+    <br> <ins> - Inserted text</ins> Hello World
+    <br> <sub> - Subscript text</sub> Hello World
+    <br> <sup> - Superscript text</sup> Hello World
+    <br>
+    <blockquote>BlockQuote</blockquote> Hello World
+    <br> <u>Underline</u> Hello World
+    <br> <strike>Strike Text</strike> Hello World
+    <br> <big>Big   </big> Hello World
+    <br> <acronym>Acronym</acronym> Hello World
+    <br> <q>Quoted</q> Hello World
+    <br> <cite>Cite Text</cite> Hello World
+    <br> <code>Code</code> Hello World
+    <br> 
+    
+    </body>
+ 
+</html>

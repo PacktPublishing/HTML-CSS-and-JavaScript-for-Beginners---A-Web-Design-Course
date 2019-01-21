@@ -1,0 +1,35 @@
+jQuery Mouse Events Keyboard Events examples and source code
+Section 7, Lecture 233
+$(document).ready(function(){
+ 
+ 
+    $("h1").mouseenter(function(){
+        $(this).addClass("red");
+    })
+    $("h1").mouseout(function(){
+        $(this).removeClass("red");
+    })
+})
+
+
+$(document).ready(function(){
+ 
+ 
+    $("h1").mouseenter(function(){
+        $(this).addClass("red");
+    })
+    $("h1").mouseout(function(){
+        $(this).removeClass("red");
+    })
+})
+$("h1").on("click",function(){
+    console.log("Clicked");
+})
+$("div").on("mouseenter",function(){
+    console.log("Mouse Enter");
+    $(this).addClass("red");
+})
+$("div").on("mouseleave",function(){
+    console.log("Mouse Enter");
+    $(this).removeClass("red");
+})

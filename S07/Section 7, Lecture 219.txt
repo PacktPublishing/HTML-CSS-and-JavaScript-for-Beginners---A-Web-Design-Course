@@ -1,0 +1,73 @@
+jQuery Source Code example
+Section 7, Lecture 219
+$(".red").css({
+    color : "red",
+    border: "1px solid blue",
+    fontSize: "26px",
+    backgroundColor: "yellow"
+});
+ 
+ 
+HTML TEMPLATE
+
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <title>jQuery Course</title>
+    <style>
+        h1{
+            position: absolute;
+            width: 200px;
+            border: 1px solid blue;
+            padding:25px;
+            margin:10px;
+        }
+        .red {
+            background-color: red;
+        }
+    </style>
+</head>
+ 
+<body>
+    <h1 id="h1">H1 #1</h1>
+    <h1 id="h2">H1 #2</h1>
+    <h1 id="h3">H1 #3</h1>
+    <input type="button" id="b1" value="one">
+    <input type="button" id="b2" value="two">
+    <input type="button" id="b3" value="three">
+    <input type="button" id="b4" value="four">
+    <br><br><br>
+    <div>Test 1 <a href="#">Lorem </a></div>
+    <div id="myDiv">Test 2 Lorem</div>
+    <div>Test 3 <img src="https://via.placeholder.com/728x90.png?text=Hello+World"> </div>
+    <ul>
+        <li class="red"><a href="#">Lorem </a>Lorem ipsum dolor sit amet consectetuer.</li>
+        <li>Aenean commodo ligula eget dolor.</li>
+        <li class="red">Aenean massa cum sociis natoque penatibus.</li>
+    </ul>
+    <p>Test paragraph <a href="#">Lorem </a></p>
+    <form action="#" method="post">
+        <fieldset>
+            <label for="name">Name:</label>
+            <input type="text" name="name" placeholder="Enter your 
+full name" />
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter 
+your email address" />
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="What's on your 
+mind?"></textarea>
+            <input type="submit" value="Send message" /> </fieldset>
+        <input type="checkbox" id="checkBox1" checked>
+        <select>
+            <option>One</option>
+            <option>Two</option>
+            <option>Three</option>
+        </select>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="lesson4.js"></script>
+</body>
+ 
+</html>
